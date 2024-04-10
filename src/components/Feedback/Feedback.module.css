@@ -1,0 +1,49 @@
+
+
+
+.title{
+    color: black;
+   display: flex;
+   justify-content: center;
+   font-size: 21px;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.button{
+    background-color: #ffff;
+    border-radius: 5px;
+    border: 1px solid #6d6e6c8d;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    text-transform: capitalize;
+}
+.button:hover{
+    background-color: blue;
+    color: #ffff;
+}
+
+.statisticContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.statisticContainer p {
+    margin-bottom: 0px;
+    font-size: 18px;
+}
+.message{
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: black;
+        font-size: 19px;
+        margin-bottom: 0px;
+}
